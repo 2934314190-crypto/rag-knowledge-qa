@@ -1,0 +1,26 @@
+# 后端虚拟环境
+backend/.venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# 环境变量与密钥（绝对不要提交）
+.env
+*.env
+!.env.example
+
+# 前端节点包
+node_modules/
+
+# Milvus 本地数据卷与运行时数据
+backend/volumes/
+backend/data/
+
+# 系统 / 编辑器
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# 日志
+*.log
